@@ -3,7 +3,7 @@
     src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
   }
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-  
+  @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
   @font-face {
     font-family: 'Bioweapon';
     src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
@@ -65,10 +65,12 @@
     color: rgb(199, 203, 204);
   }
   
-  .greeting-image-div > img {
+  .Apoding-image-div > img {
     max-width: 100%;
     height: 80vh;
+    padding: 20px;
     overflow: hidden;
+    border-radius: 10px;
   }
   
   .wave-emoji {
@@ -113,9 +115,7 @@
     }
   }
   @media (max-width: 768px) {
-    .button-greeting-div {
-      justify-content: space-around;
-    }
+  
     .Apoding-text {
       font-size: 30px;
       text-align: left;
@@ -149,13 +149,7 @@
     }
   }
   
-  @media(min-width:600px){
-  .greeting-text-div{
-    padding: 60px;
-    align-items: flex-start;
-    text-align: left;
-  }
-  }
+
   
   
   
@@ -176,7 +170,6 @@
     
     .greet-main{
       height: 90vh;
-      /* overflow: hidden; */
     }
     }
     
@@ -196,7 +189,13 @@
         text-align: left;
       
       }
-      
+      .Apoding-image-div > img {
+        max-width: 100%;
+        height: 40vh;
+        padding: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+      }
     }
 
     .exp{
@@ -205,3 +204,17 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+
+    .photo{
+        color: white;
+        padding: 10px;
+        text-align: left;
+        
+        margin: 10px;
+        border-radius: 10px;
+        /* padding-bottom: 20px; */
+        border-bottom-width: 10px;
+        border-bottom-color: red;
+        font-family: 'Viaoda Libre', cursive;
+    }
+   

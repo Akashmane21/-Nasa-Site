@@ -8,6 +8,7 @@ import "./Apod.css";
 export default function Apod() {
 
     const [ApodData, setApodData] = useState([])
+    const [isphoto, setisphoto] = useState(false)
 
     useEffect(() => {
        
@@ -17,7 +18,19 @@ export default function Apod() {
     })
     .then(data => {
       setApodData(data)
+      if(data.media_type === "image")
+      {
+          console.log("Image");
+          setisphoto(true)
+      }
+      else{
+          console.log("Video")
+          setisphoto(false)
+  
+      }
     })
+
+   
 
     }, [])
 
@@ -25,6 +38,12 @@ export default function Apod() {
  
   return (
     <Fade bottom duration={1000} distance="40px">
+    
+     <h1 className="photo" >
+               
+               {" "}  Photo / Video of the Day{" "}
+                 <span className="wave-emoji">📸</span>
+               </h1>
       <div className="Apod-main" id="greeting">
         <div className="Apoding-main">
        
@@ -33,7 +52,6 @@ export default function Apod() {
               <h1  className="dark-mode Apod-text"    >
                
               {" "}  {ApodData.title}{" "}
-                <span className="wave-emoji">📸</span>
               </h1>
               <p className="dark-mode greeting-text-p exp" >
                {ApodData.explanation}</p>
@@ -43,7 +61,12 @@ export default function Apod() {
            
           </div>
           <div className="greeting-image-div">
-          <iframe src={ApodData.url} title="description"></iframe>
+          {isphoto ? (
+        <img src="https://share.america.gov/wp-content/uploads/2019/12/iss042e215971.jpg" alt={ApodData.title} />
+          ):(
+            <iframe src={ApodData.url} title="description"></iframe>
+
+          )}
         {/* <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZQhQzO.json"  background="transparent"  speed="1"   loop  autoplay /> */}
 
     </div>
