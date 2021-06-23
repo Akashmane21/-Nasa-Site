@@ -4,7 +4,7 @@ import MyCounter from './Components/MyCounter';
 import CounterContextProider from './Context/CounterContext';
 import Header from './Components/header/Header';
 import Particles from "react-tsparticles";
-
+import Greeting from './Components/greeting/Greeting';
 
 function App() {
   return (
@@ -130,11 +130,7 @@ function App() {
       />
       </div>
       
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-     <MyCounter/>
-       
-      </header>
+     <Greeting />
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
