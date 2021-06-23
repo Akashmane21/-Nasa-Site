@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import MyCounter from './Components/MyCounter';
+// import MyCounter from './Components/MyCounter';
 import CounterContextProider from './Context/CounterContext';
 import Header from './Components/header/Header';
 import Particles from "react-tsparticles";
 import Greeting from './Components/greeting/Greeting';
+import Apod from './Components/Apod/Apod';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Particles
     height="100vh"
      width="97vw"
+     background="black"
         id="tsparticles"
         
         options={{
@@ -131,12 +133,12 @@ function App() {
       </div>
       
      <Greeting />
-
-      <header className="App-header">
+      <Apod />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
      <MyCounter/>
        
-      </header>
+      </header> */}
     </div>
     </CounterContextProider>
   );

@@ -23,7 +23,7 @@ h4{
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 100vh;
+  /* height: 100vh; */
   /* margin: 0px auto; */
   /* margin-top: 2rem; */
 }
@@ -154,4 +154,21 @@ h4{
   align-items: flex-start;
   text-align: left;
 }
+
+.greet-main{
+  height: 100vh;
+  /* overflow: hidden; */
+}
+}
+
+
+
+
+
+@media(max-width:600px){
+  .greet-main{
+    height: 100vh;
+    overflow: hidden;
+  }
+
 }
