@@ -1,5 +1,5 @@
 import React ,{useState , useEffect} from "react";
-import {Fade} from "react-reveal";
+import Bounce from 'react-reveal/Bounce';
 // import SocialMedia from "../socialMedia/SocialMedia";
 import "./Apod.css";
 
@@ -37,7 +37,7 @@ export default function Apod() {
 
  
   return (
-    <Fade bottom duration={1000} distance="40px">
+    <Bounce bottom>
     
      <h1 className="photo" >
                
@@ -72,6 +72,6 @@ export default function Apod() {
     </div>
         </div>
       </div>
-    </Fade>
+      </Bounce>
   );
 }
