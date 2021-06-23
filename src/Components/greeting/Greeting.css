@@ -1,13 +1,29 @@
+@font-face {
+  font-family: 'Nasa';
+  src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Bioweapon';
+  src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
+}
+
+h4{
+  color: aqua;
+  font-family: Bioweapon ,sans-serif;
+  font-size: 15px;
+}
 
 .main {
   width: 100%;
-  /* padding: 20px 10px; */
-  /* margin: 0px auto; */
   margin-top: 4rem;
 }
 .greet-main {
   width: 100%;
   padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100vh;
   /* margin: 0px auto; */
   /* margin-top: 2rem; */
 }
@@ -24,27 +40,34 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
-.button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+.greet-main{
+  height: 100vh;
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1.1;
-  color: white !important;
+  color: rgb(238, 18, 18) !important;
+  font-family: Nasa, sans-serif;
+
+}
+.greeting-text-div{
+  /* height: 100vh;
+  overflow: hidden; */
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 40px;
+  color: rgb(199, 203, 204);
 }
 
 .greeting-image-div > img {
   max-width: 100%;
-  height: auto;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .wave-emoji {
@@ -94,12 +117,22 @@
   }
   .greeting-text {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
   }
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-    text-align: center;
+    text-align: left;
+  
+    /* text-align: center; */
+  }
+
+  h4{
+    
+    font-size: 10px;
+  }
+  .greeting-text-div{
+    padding:  20px;
   }
   .greeting-main {
     display: block;
@@ -113,4 +146,12 @@
   .main {
     width: 100%;
   }
+}
+
+@media(min-width:600px){
+.greeting-text-div{
+  padding: 60px;
+  align-items: flex-start;
+  text-align: left;
+}
 }

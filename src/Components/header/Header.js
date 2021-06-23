@@ -13,7 +13,7 @@ function Header() {
       <Zoom right>
         <a href="/" className="logo">
         {/* <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" /> */}
-          <span className="logo-name">Nasa Astrology </span>
+          <span className="logo-name">Nasa </span>
         </a>
         </Zoom>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
