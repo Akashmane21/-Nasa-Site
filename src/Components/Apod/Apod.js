@@ -38,13 +38,16 @@ export default function Apod() {
  
   return (
     <Bounce bottom>
-    
-     <h1 className="photo" >
+   
+    <h1 className="photo" >
                
                {" "}  Photo / Video of the Day{" "}
                  <span className="wave-emoji">📸</span>
                </h1>
+  
+    
       <div className="Apod-main" id="greeting">
+  
         <div className="Apoding-main">
        
           <div className="greeting-text-div">

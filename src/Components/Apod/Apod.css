@@ -60,9 +60,11 @@
   }
   
   .greeting-text-p {
-    font-size: 35px;
+    font-size: 38px;
     line-height: 40px;
     color: rgb(199, 203, 204);
+    font-family: 'Montserrat', sans-serif;
+
   }
   
    img {
@@ -185,7 +187,7 @@
       .Apod-text {
         font-size: 30px;
         line-height: 1.1;
-        font-family: 'Nasa', sans-serif;
+        /* font-family: 'Nasa', sans-serif; */
         text-align: left;
       
       }
@@ -221,5 +223,6 @@
         border-bottom-width: 10px;
         border-bottom-color: red;
         font-family: 'Viaoda Libre', cursive;
+        background-color: rgb(10, 10, 10);
     }
    
