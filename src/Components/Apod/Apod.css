@@ -65,12 +65,12 @@
     color: rgb(199, 203, 204);
   }
   
-  .Apoding-image-div > img {
-    max-width: 100%;
-    height: 80vh;
-    padding: 20px;
+   img {
+    max-width: 50%;
+    height:200px;
+    padding: 50px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 50px;
   }
   
   .wave-emoji {
@@ -189,13 +189,18 @@
         text-align: left;
       
       }
-      .Apoding-image-div > img {
-        max-width: 100%;
-        height: 40vh;
-        padding: 20px;
-        overflow: hidden;
-        border-radius: 10px;
+      img{
+          border-radius: 20px;
       }
+     
+      .greeting-image-div > img {
+        max-width: 100%;
+        height:300px;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
     }
 
     .exp{

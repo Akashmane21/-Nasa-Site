@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
   height: 90vh;
   width: 100%;
 }
 
 body{
-  background-color: black;
+  background-color: #0b1016;
 }
 .App-logo {
   height: 40vmin;

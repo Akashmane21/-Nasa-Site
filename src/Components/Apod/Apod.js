@@ -62,7 +62,7 @@ export default function Apod() {
           </div>
           <div className="greeting-image-div">
           {isphoto ? (
-        <img src="https://share.america.gov/wp-content/uploads/2019/12/iss042e215971.jpg" alt={ApodData.title} />
+        <img src={ApodData.url} alt={ApodData.title} />
           ):(
             <iframe src={ApodData.url} title="description"></iframe>
 

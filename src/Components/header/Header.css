@@ -18,7 +18,7 @@
 }
 
 .header {
-  background-color: #020d18;
+  background-color: #30363d;
   max-width: 100%;
   padding: 10px 10px;
   margin: 0px auto;
@@ -62,7 +62,7 @@
   /* font-variant-ligatures: no-common-ligatures; */
   /* -webkit-font-variant-ligatures: no-common-ligatures; */
   padding: 0 10px;
-  color: rgb(247, 98, 12);
+  color: rgb(255, 94, 0);
   font-family: Nasa, sans-serif;
   font-size: 27px;
 
