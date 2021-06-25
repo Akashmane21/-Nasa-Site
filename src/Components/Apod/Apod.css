@@ -157,7 +157,7 @@
   
 
   .Apod-main{
-      background-color: black;
+      background-color: rgb(80, 26, 218);
       display: flex;
       flex-direction: row-reverse;
   }
@@ -223,6 +223,6 @@
         border-bottom-width: 10px;
         border-bottom-color: red;
         font-family: 'Viaoda Libre', cursive;
-        background-color: rgb(10, 10, 10);
+        background-color: rgba(168, 44, 22, 0.199);
     }
    

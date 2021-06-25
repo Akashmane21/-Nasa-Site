@@ -9,6 +9,10 @@
     src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
   }
   
+  .desblock{
+    width: 50%;
+}
+
   .dateselect > h4{
     color: aqua;
     padding-top: 20px;
@@ -207,7 +211,9 @@
         padding: 20px;
         border-radius: 20px;
     }
-
+    .desblock{
+      width: 100%;
+  }
     }
 
    
@@ -237,10 +243,6 @@
 
     
 
-    .desblock{
-        /* width: 50%; */
-    }
-    
 
     .birthphoto{
       background-color: rgba(10, 10, 27, 0.986);
@@ -248,3 +250,7 @@
     }
 
   
+
+    .Apod-main{
+      background-color: rgb(5, 12, 24);
+    }
