@@ -9,11 +9,15 @@
     src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
   }
   
-  h4{
+  .dateselect > h4{
     color: aqua;
+    padding-top: 20px;
     font-family: Bioweapon ,sans-serif;
     font-size: 15px;
+    margin-top: 20px;
   }
+  
+  
   .photoblock > img{
     max-width: 100%;
     height:300px;
@@ -128,10 +132,7 @@
       /* text-align: center; */
     }
   
-    h4{
-      
-      font-size: 20px;
-    }
+ 
     .Birthday-text-div{
       padding:  20px;
     }
@@ -227,21 +228,22 @@
    
 
     .dateselect{
-        background-color: rgb(27, 22, 14);
+        background-color: rgb(10, 9, 17);
         padding: 10px;
         text-align: left;
         justify-content: left;
+        border-radius: 10px;
     }
 
     
 
     .desblock{
-        width: 50%;
+        /* width: 50%; */
     }
     
 
     .birthphoto{
-      background-color: rgba(23, 11, 34, 0.986);
+      background-color: rgba(10, 10, 27, 0.986);
       padding: 10px;
     }
 

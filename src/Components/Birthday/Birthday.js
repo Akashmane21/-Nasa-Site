@@ -50,15 +50,15 @@ export default function Apod() {
         <div className="Birthday-main">
        
           <div className="Birthday-text-div">
-            <div>
-            <div className="dateselect">
-                     <p className="dark-mode Birthday-text-p exp" >
-                    Type your Birthdate</p>
-                    <input placeholder="yyyy-mm-dd" />
-        
-               </div>
+            <div className="h4div">
+                  <div className="dateselect">
+                          <p className="dark-mode Birthday-text-p exp" >
+                          Type your Birthdate</p>
+                          <input placeholder="yyyy-mm-dd" />
+                          <h4>{ApodData.title}</h4>
 
-                            <h4>{ApodData.title}</h4>
+                    </div>
+
 
     
 
