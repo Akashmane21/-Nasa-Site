@@ -6,11 +6,15 @@ import Header from './Components/header/Header';
 import Particles from "react-tsparticles";
 import Greeting from './Components/greeting/Greeting';
 import Apod from './Components/Apod/Apod';
+import Birthday from './Components/Birthday/Birthday';
+
+
 
 function App() {
   return (
     <CounterContextProider>
     <Header />
+
     <div className="App">
     <div style={{ position: 'absolute'}}>
         
@@ -134,11 +138,9 @@ function App() {
       
      <Greeting />
       <Apod />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-     <MyCounter/>
-       
-      </header> */}
+        <Birthday />
+
+
     </div>
     </CounterContextProider>
   );

@@ -36,6 +36,7 @@ export default function Greeting() {
           </div>
         </div>
       </div>
+      
     </Fade>
   );
 }
