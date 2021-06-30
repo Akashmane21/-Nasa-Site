@@ -2,7 +2,7 @@ const Natural = [
     {
         "identifier": "20210626004554",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626004554",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626004554.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.112793,
@@ -61,7 +61,7 @@ const Natural = [
     {
         "identifier": "20210626015122",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626015122",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626015122.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.061523,
@@ -120,7 +120,7 @@ const Natural = [
     {
         "identifier": "20210626025650",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626025650",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626025650.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.105469,
@@ -179,7 +179,7 @@ const Natural = [
     {
         "identifier": "20210626040217",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626040217",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626040217.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.054199,
@@ -238,7 +238,7 @@ const Natural = [
     {
         "identifier": "20210626050744",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626050744",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626050744.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.098145,
@@ -297,7 +297,7 @@ const Natural = [
     {
         "identifier": "20210626061312",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626061312",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626061312.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.07251,
@@ -356,7 +356,7 @@ const Natural = [
     {
         "identifier": "20210626071839",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626071839",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626071839.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.061523,
@@ -415,7 +415,7 @@ const Natural = [
     {
         "identifier": "20210626082407",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626082407",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626082407.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.061523,
@@ -474,7 +474,7 @@ const Natural = [
     {
         "identifier": "20210626092934",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626092934",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626092934.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.039551,
@@ -533,7 +533,7 @@ const Natural = [
     {
         "identifier": "20210626103501",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626103501",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626103501.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.039551,
@@ -592,7 +592,7 @@ const Natural = [
     {
         "identifier": "20210626114028",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626114028",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626114028.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.017578,
@@ -651,7 +651,7 @@ const Natural = [
     {
         "identifier": "20210626124556",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626124556",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626124556.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.024902,
@@ -710,7 +710,7 @@ const Natural = [
     {
         "identifier": "20210626135124",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626135124",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626135124.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.024902,
@@ -769,7 +769,7 @@ const Natural = [
     {
         "identifier": "20210626145651",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626145651",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626145651.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.039551,
@@ -828,7 +828,7 @@ const Natural = [
     {
         "identifier": "20210626160219",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626160219",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626160219.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.017578,
@@ -887,7 +887,7 @@ const Natural = [
     {
         "identifier": "20210626170747",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626170747",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626170747.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.028564,
@@ -946,7 +946,7 @@ const Natural = [
     {
         "identifier": "20210626181314",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626181314",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626181314.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.017578,
@@ -1005,7 +1005,7 @@ const Natural = [
     {
         "identifier": "20210626191841",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626191841",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626191841.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 18.010254,
@@ -1064,7 +1064,7 @@ const Natural = [
     {
         "identifier": "20210626202409",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626202409",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626202409.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 17.980957,
@@ -1123,7 +1123,7 @@ const Natural = [
     {
         "identifier": "20210626212937",
         "caption": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
-        "image": "epic_1b_20210626212937",
+        "image": "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626212937.jpg",
         "version": "03",
         "centroid_coordinates": {
             "lat": 17.995605,
