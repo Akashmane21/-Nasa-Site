@@ -157,8 +157,8 @@
   
 
   .Apod-main{
-      background-color: rgb(80, 26, 218);
-      display: flex;
+    background-color: rgb(5, 12, 24);
+    display: flex;
       flex-direction: row-reverse;
   }
 
