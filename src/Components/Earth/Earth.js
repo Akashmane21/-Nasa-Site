@@ -15,9 +15,30 @@ export default function Earth() {
   const [x, setx] = useState('134539.761915')
   const [y, sety] = useState('-302563.631983')
   const [z, setz] = useState('-155250.100487')
-
   var i = 0
-
+const imgs = ["https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626004554.jpg",
+ "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626015122.jpg", 
+ "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626025650.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626040217.jpg", 
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626050744.jpg",
+ "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626061312.jpg",
+ "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626071839.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626082407.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626092934.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626103501.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626114028.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626124556.jpg",
+   "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626135124.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626145651.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626160219.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626170747.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626181314.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626191841.jpg",
+  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626202409.jpg",
+ "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626212937.jpg"]
+ // eslint-disable-next-line
+ const [imgsarray, setimgsarray] = useState(imgs)
+console.log(imgsarray);
 
       useEffect(() => {
 
@@ -29,7 +50,7 @@ export default function Earth() {
                 seteimg(Natural[i].image)
                 setlon(Natural[i].centroid_coordinates.lon)
                 setlan(Natural[i].centroid_coordinates.lat)
-
+               
                 setx(Natural[i].lunar_j2000_position.x)
                 sety(Natural[i].lunar_j2000_position.y)
                 setz(Natural[i].lunar_j2000_position.z)
@@ -47,7 +68,6 @@ export default function Earth() {
 
 
         myFunction()
-        console.log(Natural[0].image);
 
       }, [])
 
@@ -70,40 +90,27 @@ export default function Earth() {
                           <div className="boxtitle">
                           <h4>Image information </h4>
                           </div>
-                          <table >
-                         
-                            <tr>
-                              <td><h5>Processing Version</h5></td>
-                              <td><h5>: v5</h5></td>
-                            </tr>
-                            <tr>
-                              <td><h5>centroid_coordinates</h5></td>
-                              {/* <td><h5>: 1,584,520 km</h5></td> */}
-                            </tr>
-                            <tr>
-                              <td><h5>lantitude</h5></td>
-                              <td><h5>: {lan}</h5></td>
-                            </tr>
-
-                            <tr>
-                              <td><h5>Longitude  </h5></td>
-                              <td><h5>: {lon}</h5></td>
-                            </tr>
-                            <tr>
-                              <td><h5>lunar position </h5></td>
-                            </tr>
-                            <tr>
-                              <td><h5>X Co. </h5></td>
-                              <td><h5>: {x}</h5></td>
-                            </tr><tr>
-                              <td><h5>Y Co</h5></td>
-                              <td><h5>: {y}</h5></td>
-                            </tr><tr>
-                              <td><h5>Z Co</h5></td>
-                              <td><h5>: {z}</h5></td>
-                            </tr>
+                        
+                          
+                            
+                              <h5 className="heading">Processing Version</h5>
+                              <h5>: v5</h5>
                            
-                          </table>
+                            
+                              <h5 className="heading">centroid_coordinates</h5>
+                              <h5>lantitude : {lan}</h5>
+                              <h5>Longitude : {lon} </h5>
+                              
+                           
+                            
+                              <h5 className="heading">lunar position </h5>
+                           
+                              <h5>X Co. : {x} </h5>
+                              <h5>Y Co: {y}</h5>
+                              <h5>Z Co : {z}</h5>
+                             
+                           
+                          
                            
                        </div>
                   </div>
@@ -118,6 +125,22 @@ export default function Earth() {
 
           </div>
         </div>
+        <div className="imgsarray">
+
+        {imgsarray ? imgsarray.map((img , index)=> 
+        <img
+                alt="man sitting on table"
+                src={img}
+              ></img>
+        ) : ""}
+        </div>
+        <h1  className="dark-mode title-text" >
+                    
+                    {" "} This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft{" "}
+                        <span className="App-logo">🌍</span>
+                    </h1>
+
+
       </div>
       
     </Fade>

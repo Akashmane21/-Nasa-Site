@@ -58,6 +58,15 @@
     font-family: Nasa, sans-serif;
   
   }
+
+  .title-text{
+    
+    font-size: 20px;
+    line-height: 1.1;
+    color: rgb(238, 99, 18) !important;
+    font-family: Nasa, sans-serif;
+
+  }
   .Earthing-text-div{
 
 
@@ -191,3 +200,24 @@
     padding-left: 20px;
     padding-top: 20px;
   }
+
+ .heading{
+   color: orange;
+ }
+
+ .imgsarray{
+   background-color: gray;
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+   overflow: scroll;
+   overflow-y: hidden;
+   margin-left: 10%;
+   border-radius: 10px;
+ }
+
+ .imgsarray >img{
+   height: 100px;
+   margin: 4px;
+   border-radius: 10px;
+ }
