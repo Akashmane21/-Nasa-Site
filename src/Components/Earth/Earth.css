@@ -60,10 +60,10 @@
   }
 
   .title-text{
-    
-    font-size: 20px;
+
+    font-size: 15px;
     line-height: 1.1;
-    color: rgb(238, 99, 18) !important;
+    color: rgb(253, 253, 253) !important;
     font-family: Nasa, sans-serif;
 
   }
@@ -209,10 +209,10 @@
    background-color: gray;
    display: flex;
    flex-direction: row;
-   width: 80%;
+   width: 100%;
    overflow: scroll;
    overflow-y: hidden;
-   margin-left: 10%;
+   margin: 10px;
    border-radius: 10px;
  }
 
