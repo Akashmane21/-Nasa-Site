@@ -6,7 +6,8 @@ import Header from './Components/header/Header';
 import Particles from "react-tsparticles";
 import Greeting from './Components/greeting/Greeting';
 import Apod from './Components/Apod/Apod';
-import Birthday from './Components/Birthday/Birthday';
+// import Birthday from './Components/Birthday/Birthday';
+import Earth from './Components/Earth/Earth';
 
 
 
@@ -136,9 +137,10 @@ function App() {
       />
       </div>
       
-     <Greeting />
+      <Greeting />
       <Apod />
-        <Birthday />
+      {/* <Birthday /> */}
+      <Earth />
 
 
     </div>

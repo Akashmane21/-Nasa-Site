@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Nasa';
+    src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
+  }
+  
+  
+  @font-face {
+    font-family: 'Bioweapon';
+    src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+  
+  .boxtitle >h4{
+    color: rgb(255, 238, 0);
+    font-family: Bioweapon ,sans-serif;
+    font-size: 20px;
+    /* background-color: red; */
+    padding: 10px;
+
+  }
+  
+  .main {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .Earth-main {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+  
+  }
+  
+  .Earthing-main {
+    display: flex;
+  }
+  
+  .subTitle {
+    color: white !important;
+  }
+  
+  
+  
+  .Earthing-main > * {
+    flex: 1;
+    /* margin-bottom: 30px; */
+  }
+  .greet-main{
+    height: 100vh;
+  }
+  
+  .Earthing-text {
+    font-size: 30px;
+    line-height: 1.1;
+    color: rgb(238, 18, 18) !important;
+    font-family: Nasa, sans-serif;
+  
+  }
+  .Earthing-text-div{
+
+
+  }
+  .Earthing-image-div{
+  }
+  
+  .Earthing-text-p {
+    font-size: 35px;
+    line-height: 40px;
+    color: rgb(199, 203, 204);
+
+  }
+  
+  .Earthing-image-div > img {
+    max-width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+ 
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .Earthing-text {
+      font-size: 50px;
+    }
+    .Earthing-text-p {
+      font-size: 20px;
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .button-Earthing-div {
+      justify-content: space-around;
+    }
+    .Earthing-text {
+      font-size: 30px;
+      text-align: left;
+    }
+    .Earthing-text-p {
+      font-size: 16px;
+      line-height: normal;
+      text-align: left;
+    
+      /* text-align: center; */
+    }
+  
+    h4{
+      
+      font-size: 10px;
+    }
+    .Earthing-text-div{
+      padding:  20px;
+    }
+    .Earthing-main {
+      display: block;
+    }
+    .Earthing-image-div {
+      /* height: 256px; */
+    }
+    .Earthing-image-div > img {
+      max-width: 100%;
+      height: 360px;
+      overflow: hidden;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .main {
+      width: 100%;
+    }
+  }
+  
+  @media(min-width:600px){
+  .Earthing-text-div{
+    padding: 60px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .greet-main{
+    height: 100vh;
+    /* overflow: hidden; */
+  }
+
+  .Earthing-text-div >h4{
+  font-size: 25px;
+  color: red;
+  }
+  
+  
+  }
+  
+  
+  
+  
+  
+  @media(max-width:600px){
+    .greet-main{
+      height: 100vh;
+      overflow: hidden;
+    }
+  
+  }
+
+  .box{
+      background-color: rgb(24, 23, 23);
+      padding: 10px;
+      /* box-sizing: border-box; */
+      border-radius: 5px;
+      /* width: 70%; */
+      text-align: left;
+  }
+
+  .boxtitle{
+    background-color: rgb(29, 28, 28);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  h5{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .Earthing-text{
+    padding-left: 20px;
+    padding-top: 20px;
+  }

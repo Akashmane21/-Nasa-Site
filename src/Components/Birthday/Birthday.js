@@ -2,21 +2,23 @@ import React ,{useState , useEffect} from "react";
 import Bounce from 'react-reveal/Bounce';
 // import SocialMedia from "../socialMedia/SocialMedia";
 import "./Birthday.css";
-
+import Natural from "../../LocalApi's/NaturalApi"
 export default function Apod() {
-
+  // eslint-disable-next-line
+  const [date, setdate] = useState("2000-08-21")
     const [ApodData, setApodData] = useState([])
     const [isphoto, setisphoto] = useState(false)
 
-    // const [date, setdate] = useState("")
+  
 
     useEffect(() => {
-       
-        fetch("https://api.nasa.gov/planetary/apod?api_key=y3A5K36JWGke3nAW9ffShgctFhYRgNI760fediih")
+       console.log(Natural)
+        fetch("https://api.nasa.gov/EPIC/api/natural?api_key=y3A5K36JWGke3nAW9ffShgctFhYRgNI760fediih")
    .then(response => {
       return response.json();
     })
     .then(data => {
+      console.log(data);
       setApodData(data)
       if(data.media_type === "image")
       {
@@ -55,7 +57,7 @@ export default function Apod() {
                           <p className="dark-mode Birthday-text-p exp" >
                           Type your Birthdate</p>
                           <input placeholder="yyyy-mm-dd" />
-                          <h4>{ApodData.title}</h4>
+                          <h4>{date}</h4>
 
                     </div>
 
@@ -64,6 +66,9 @@ export default function Apod() {
 
         <div className="birthphoto">
              <div className="photoblock">
+
+             <img src={ApodData.url} alt={ApodData.title} />
+
                {isphoto ? (
         <img src={ApodData.url} alt={ApodData.title} />
           ):(

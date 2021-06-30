@@ -8,7 +8,6 @@ export default function Apod() {
     const [ApodData, setApodData] = useState([])
     const [isphoto, setisphoto] = useState(false)
 
-    // const [date, setdate] = useState("")
 
     useEffect(() => {
        
@@ -41,7 +40,7 @@ export default function Apod() {
    
     <h1 className="photo" >
                
-               {" "}  Photo / Video of the Day{" "}
+               {" "}  Astronomy Picture Of The Day{" "}
                  <span className="wave-emoji">📸</span>
                </h1>
   
