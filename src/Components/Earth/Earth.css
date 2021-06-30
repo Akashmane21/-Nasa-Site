@@ -209,7 +209,7 @@
    background-color: gray;
    display: flex;
    flex-direction: row;
-   width: 100%;
+   width: 95%;
    overflow: scroll;
    overflow-y: hidden;
    margin: 10px;
