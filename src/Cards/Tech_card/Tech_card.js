@@ -1,19 +1,18 @@
-import React  from "react";
+import React ,{useState}  from "react";
+import Techshort from "../../LocalApi's/Techshort";
 import "./Tech_card.css";
 
 
 
-export default function Tech_card(props) {
+export default function Tech_card() {
+    
+// eslint-disable-next-line
+const [Techapi, setTechapi] = useState(Techshort)
 
-console.log(props);
-
-
-
-function onopen() {
-    var modal = document.getElementById("myModal");
-
-  modal.style.display = "block";
-}
+const [modalimg, setmodalimg] = useState("")
+const [modaldes, setmodaldes] = useState("")
+const [modalname, setmodalname] = useState("")
+const [modaltype, setmodaltype] = useState("")
 
 function onclose() {
     console.log("closed");
@@ -33,32 +32,40 @@ window.onclick = function(event) {
 
   return (
       <>
-    <button onClick={onopen}>
+       {Techapi.map((Tech) => (
+    <button onClick={()=>{
+         setmodalimg(Tech.img)
+         setmodaldes(Tech.Des)
+         setmodalname(Tech.Name)
+         setmodaltype(Tech.Type)
+    var modal = document.getElementById("myModal");
+
+  modal.style.display = "block";
+    }}>
                         <div className="Tech_box">
 
-                            <img  alt="Earth" src={props.img} />
-                            <h5>{props.Name}</h5>
-                            <h6>{props.Type}</h6>
+                            <img  alt={Tech.Name}   src={Tech.img} />
+                            <h5>{Tech.Name}</h5>
+                            <h6>{Tech.Type}</h6>
 
                         </div>
                         </button>
+       ))}
 
       <div id="myModal" class="modal">
 
-<div class="modal-content">
- <span onClick={onclose} class="close">&times;</span>
+              <div class="modal-content">
+                            <span onClick={onclose} class="close">  &times;</span>
+                            <h1>{modaltype}</h1>
 
-                            <img  alt="Earth" src={props.img} />
-                            <h5>{props.Name}</h5>
-                            <h6>{props.Type}</h6>
-                            <p>{props.Des}</p>
+                            <img  alt={modalname} src={modalimg} />
+                            <h5>{modalname}</h5>
+                            <h6>Type : {modaltype}</h6>
+                            <p>{modaldes}</p>
 
+             </div>
 
-                
- 
-</div>
-
-</div>
+     </div>
 
       </>
                       

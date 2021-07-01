@@ -8,6 +8,12 @@
     src: local('Bioweapon'), url(../../assets/fonts/BIOWEAPON.ttf) format('truetype');
   }
 
+
+  .modal-content >img{
+      height: 300px;
+      border-radius: 5px;
+  }
+
   .Tech_title {
     font-size: 30px;
     line-height: 1.1;
@@ -24,7 +30,7 @@
         height: 360px;
         width: 300px;
         background-color: #1b1f23;
-        margin: 40px;
+        margin: 30px;
         border-radius: 5px;
         padding: 10px;
         text-align: left;
@@ -63,31 +69,6 @@
   }
 
 
-  @media (max-width: 768px) {
-
-    .Tech_area{
-        display: block;
-        margin: 10px;
-     }
-
-
-    .Tech_box{
-        margin: 20px;
-    }
-
-
-    .Tech_box >img{
-        height: 200px;
-        width: 100%;
-        display: flex;
-        border-radius: 5px;
-    }
-
-    .Tech_title {
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-  }
 
 
   
@@ -130,14 +111,38 @@
     align-items: left;
   }
   
+  .modal-content >h5{
+  color: rgb(0, 238, 255);
+  text-transform: uppercase;
+  margin-top: 20px;
+  }
+
+  .modal-content >h6{
+    color: rgb(16, 153, 23);
+    text-transform: uppercase;
+    margin-top: 20px;
+    }
+    .modal-content>h1{
+        font-family: Bioweapon , sans-serif;
+        color: rgb(212, 0, 255);
+        font-size: 22px;
+    }
+
+
   p{
-      color: rgb(0, 238, 255);
+      color: rgb(255, 251, 251);
   }
   .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.212);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    align-items: right;
+    padding-right: 20px;
   }
   
   .close:hover,
@@ -145,4 +150,46 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+
+
+  
+  @media (max-width: 768px) {
+
+    .Tech_area{
+        display: block;
+        margin: 10px;
+     }
+
+
+    .Tech_box{
+        margin: 20px;
+    }
+
+
+    .Tech_box >img{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        border-radius: 5px;
+    }
+
+    .Tech_title {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .modal-content >img{
+        height: 200px;
+        border-radius: 5px;
+    }
+    .modal-content>h1{
+        font-size: 16px;
+    }
+
+    
+  .modal-content {
+    margin: 10px;
+  width: 95%;
+  }
   }
