@@ -18,9 +18,16 @@ export default function Greeting() {
               {" "}  NASA - Space Administration{" "}
                 <span className="wave-emoji">🚀</span>
               </h1>
+              <div className="h4div">
+
+              <h4> </h4>
+              </div>
+              
               <p className="dark-mode greeting-text-p" >
                 The National Aeronautics and Space Administration (NASA /ˈnæsə/) is an 
                 independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and space research.              </p>
+         <br />
+        
           <h4>[ Developed by Akash Mane ]</h4>
             <SocialMedia />
             </div>

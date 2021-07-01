@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Nasa';
+    src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Bioweapon';
+    src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
+  }
+
+  .Tech_title {
+    font-size: 30px;
+    line-height: 1.1;
+    color: rgb(176, 18, 238) !important;
+    font-family: Bioweapon , sans-serif;
+    margin-top: 50px;
+  }
+
+  .Tech_box >h5{
+      margin-top: 15px;
+  }
+
+  .Tech_box{
+        height: 360px;
+        width: 300px;
+        background-color: #1b1f23;
+        margin: 40px;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: left;
+  }
+
+  .Tech_box:hover{
+      cursor: pointer;
+
+        box-shadow:
+        0 3.5px 3.6px rgba(148, 3, 245, 0.036),
+        0 9.6px 5px rgba(150, 0, 250, 0.047),
+        0 23.2px 14.1px rgba(117, 3, 247, 0.056),
+        0 27px 20px rgba(117, 1, 250, 0.08);
+
+  }
+ 
+
+
+
+  .Tech_box >img{
+      height: 200px;
+      width: 280px;
+      border-radius: 5px;
+  }
+  .Tech_area{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 30px 100px;
+  }
+
+  .Tech_box >h6{
+      color: rgb(146, 155, 69);
+      text-transform: uppercase;
+      font-size: 15px;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .Tech_area{
+        display: block;
+        margin: 10px;
+     }
+
+
+    .Tech_box{
+        margin: 20px;
+    }
+
+
+    .Tech_box >img{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        border-radius: 5px;
+    }
+
+    .Tech_title {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+  }

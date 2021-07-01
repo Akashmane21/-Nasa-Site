@@ -16,6 +16,10 @@ export default function Earth() {
   const [y, sety] = useState('-302563.631983')
   const [z, setz] = useState('-155250.100487')
   var i = 0
+
+
+  const date = new Date().toLocaleDateString()
+
 const imgs = ["https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626004554.jpg",
  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626015122.jpg", 
  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626025650.jpg",
@@ -38,7 +42,6 @@ const imgs = ["https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b
  "https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b_20210626212937.jpg"]
  // eslint-disable-next-line
  const [imgsarray, setimgsarray] = useState(imgs)
-console.log(imgsarray);
 
       useEffect(() => {
 
@@ -46,7 +49,6 @@ console.log(imgsarray);
         
             function myFunction() {
               setInterval(function(){ 
-                console.log(i);
                 seteimg(Natural[i].image)
                 setlon(Natural[i].centroid_coordinates.lon)
                 setlan(Natural[i].centroid_coordinates.lat)
@@ -91,7 +93,8 @@ console.log(imgsarray);
                           <h4>Image information </h4>
                           </div>
                         
-                          
+                          <h5 className="heading">Date</h5>
+                              <h5>{date}</h5>
                             
                               <h5 className="heading">Processing Version</h5>
                               <h5>: v5</h5>
@@ -119,28 +122,29 @@ console.log(imgsarray);
           <div className="Earthing-image-div">
            
               <img
-                alt="man sitting on table"
+                alt="Earth"
                 src={eimg}
               ></img>
+  {/* <div className="imgsarray">
+
+{imgsarray ? imgsarray.map((img , index)=> 
+<img
+        alt="Earth"
+        src={img}
+      ></img>
+) : ""}
+</div> */}
+{/* <h1  className="dark-mode title-text" >
+            
+            {" "} This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft{" "}
+                <span className="App-logo">🌍</span>
+            </h1> */}
+<h5> This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft{" "}
+</h5>
 
           </div>
         </div>
-        <div className="imgsarray">
-
-        {imgsarray ? imgsarray.map((img , index)=> 
-        <img
-                alt="man sitting on table"
-                src={img}
-              ></img>
-        ) : ""}
-        </div>
-        <h1  className="dark-mode title-text" >
-                    
-                    {" "} This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft{" "}
-                        <span className="App-logo">🌍</span>
-                    </h1>
-
-
+      
       </div>
       
     </Fade>
