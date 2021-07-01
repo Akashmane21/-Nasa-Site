@@ -226,3 +226,8 @@
         /* background-color: rgba(168, 44, 22, 0.199); */
     }
    
+
+    .svg{
+      position: absolute;
+      top: 20;
+    }

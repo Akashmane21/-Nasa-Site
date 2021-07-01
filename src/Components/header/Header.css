@@ -44,7 +44,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color:rgba(199, 64, 23, 0.473);
+  background-color:rgba(199, 23, 199, 0.473);
 }
 
 .header .logo {
@@ -62,7 +62,7 @@
   /* font-variant-ligatures: no-common-ligatures; */
   /* -webkit-font-variant-ligatures: no-common-ligatures; */
   padding: 0 10px;
-  color: rgb(255, 94, 0);
+  color: rgb(176, 18, 238);
   font-family: Nasa, sans-serif;
   font-size: 27px;
 

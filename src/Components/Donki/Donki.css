@@ -17,7 +17,25 @@
   }
 
 
+  .Donki_main >button{
+      background-color: orange;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 6px 25px;
+      border-radius: 10px;
+  }
   
+  .Donki_main >button:hover{
+      background-color: #1b1f23;
+      border-width: 1px;
+      border-color: orange;
+      color: orange;
+      position: relative;
+      top: -10px;
+  }
+  .Donki_main{
+      padding-bottom: 40px;
+  }
 
   @media (max-width: 768px) {
 

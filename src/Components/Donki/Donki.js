@@ -23,7 +23,7 @@ export default function Donki() {
               {/* eslint-disable-next-line  */}
                   <Tech_card  />
                 </div>
-
+<button className="seebtn">See More</button>
       
       </div>
       

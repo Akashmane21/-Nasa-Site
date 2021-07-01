@@ -9,6 +9,7 @@ import Apod from './Components/Apod/Apod';
 // import Birthday from './Components/Birthday/Birthday';
 import Earth from './Components/Earth/Earth';
 import Donki from './Components/Donki/Donki';
+import Gallary from './Components/Gallary/Gallary';
 
 
 
@@ -143,9 +144,11 @@ function App() {
       {/* <Birthday /> */}
       <Earth />
       <Donki />
+      
       {/* <iframe src='https://mars.nasa.gov/layout/embed/image/insightweather/'
-       width='200' height='530'  ></iframe> */}
+       width='300' height='530'  ></iframe> */}
 
+       <Gallary />
     </div>
     </CounterContextProider>
   );
