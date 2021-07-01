@@ -1,11 +1,12 @@
 import React ,{useState}  from "react";
 import Techshort from "../../LocalApi's/Techshort";
 import "./Tech_card.css";
+import Zoom from 'react-reveal/Zoom';
 
 
 
 export default function Tech_card() {
-    
+
 // eslint-disable-next-line
 const [Techapi, setTechapi] = useState(Techshort)
 
@@ -32,6 +33,8 @@ window.onclick = function(event) {
 
   return (
       <>
+             
+
        {Techapi.map((Tech) => (
     <button onClick={()=>{
          setmodalimg(Tech.img)
@@ -42,6 +45,7 @@ window.onclick = function(event) {
 
   modal.style.display = "block";
     }}>
+     <Zoom top>
                         <div className="Tech_box">
 
                             <img  alt={Tech.Name}   src={Tech.img} />
@@ -49,6 +53,7 @@ window.onclick = function(event) {
                             <h6>{Tech.Type}</h6>
 
                         </div>
+                        </Zoom>
                         </button>
        ))}
 
@@ -66,7 +71,6 @@ window.onclick = function(event) {
              </div>
 
      </div>
-
       </>
                       
   );

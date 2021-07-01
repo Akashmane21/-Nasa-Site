@@ -1,5 +1,5 @@
 import React  from "react";
-import {Fade} from "react-reveal";
+// import {Fade} from "react-reveal";
 // import Natural from "../../LocalApi's/NaturalApi";
 // import SocialMedia from "../socialMedia/SocialMedia";
 import "./Donki.css";
@@ -15,7 +15,6 @@ export default function Donki() {
 
 
   return (
-    <Fade bottom duration={1000} distance="40px">
       <div className="Donki_main">
                    <h1  className="Tech_title" >  New Technologies 🥇 </h1>
                   
@@ -27,6 +26,5 @@ export default function Donki() {
       
       </div>
       
-    </Fade>
   );
 }

@@ -3,6 +3,7 @@ import {Fade} from "react-reveal";
 import "./Gallary.css";
 // import Tech_card from "../../Cards/Tech_card/Tech_card";
 import { Galaryshort } from "../../LocalApi's/Gallary";
+import Zoom from 'react-reveal/Zoom';
 
 
 export default function Gallary() {
@@ -18,15 +19,17 @@ const [Gallary, setGallary] = useState(Galaryshort)
 
         <div className="Photo_grid">
         {Gallary.map((Gallary) => (
+            <Zoom left>
+
             <img src={Gallary} alt={Gallary} />
+            </Zoom>
 
         ))} 
         </div>
                  <button className="seebtn">See More</button>
-                
-
+             
       </div>
-      
+     
     </Fade>
   );
 }
