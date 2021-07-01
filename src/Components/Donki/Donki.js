@@ -5,6 +5,7 @@ import {Fade} from "react-reveal";
 import "./Donki.css";
 // import Tech from "../../LocalApi's/Tech"
 import Techshort from "../../LocalApi's/Techshort";
+import Tech_card from "../../Cards/Tech_card/Tech_card";
 
 
 
@@ -14,6 +15,11 @@ export default function Donki() {
     // eslint-disable-next-line
     const [Techapi, setTechapi] = useState(Techshort)
 
+    
+
+
+
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="Donki_main">
@@ -22,15 +28,18 @@ export default function Donki() {
                 <div className="Tech_area">
 
                     {Techapi.map((Tech) => (
-                        <>
-                        <div className="Tech_box">
+                        // eslint-disable-next-line
+                       <Tech_card 
+                          id = {Tech.id}
+                          nameid ={Tech.nameid}
+                          Name ={Tech.Name}
+                          Des ={Tech.Des}
+                          nameid2={Tech.nameid2}
+                          Type={Tech.Type}
+                          titleid={Tech.titleid}
+                          img={Tech.img}
 
-                            <img  alt="Earth" src={Tech.img} />
-                            <h5>{Tech.Name}</h5>
-                            <h6>{Tech.Type}</h6>
-
-                        </div>
-                        </>
+                       />
                      ))}
 
                 </div>
