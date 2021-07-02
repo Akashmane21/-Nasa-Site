@@ -42,6 +42,7 @@
 	-o-transform: rotate(4deg);
 	-ms-transform: rotate(4deg);
 	transform: rotate(4deg);
+    overflow: hidden;
 
 }
 .Photo_grid >img:hover{

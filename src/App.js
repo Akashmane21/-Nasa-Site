@@ -10,6 +10,8 @@ import Apod from './Components/Apod/Apod';
 import Earth from './Components/Earth/Earth';
 import Donki from './Components/Donki/Donki';
 import Gallary from './Components/Gallary/Gallary';
+import Contact from './Components/contact/Contact';
+// import Slider from './Components/Slider/Slider';
 
 
 
@@ -144,11 +146,14 @@ function App() {
       {/* <Birthday /> */}
       <Earth />
       <Donki />
-      
+
       {/* <iframe src='https://mars.nasa.gov/layout/embed/image/insightweather/'
        width='300' height='530'  ></iframe> */}
 
        <Gallary />
+       {/* <Slider /> */}
+       <Contact />
+      
     </div>
     </CounterContextProider>
   );

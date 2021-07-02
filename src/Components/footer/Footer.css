@@ -1,0 +1,18 @@
+
+.footer-text {
+  text-align: center;
+  color: white !important;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-div >a{
+  text-decoration: none;
+}
