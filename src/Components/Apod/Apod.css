@@ -23,14 +23,15 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 100vh;
+    height: 350px;
+    overflow: hidden;
     /* margin: 0px auto; */
     /* margin-top: 2rem; */
   }
   
   .Apoding-main {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
   
   .subTitle {
@@ -45,9 +46,9 @@
   }
   .Apod-main{
     height: 100vh;
-    background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 99%;
+    border-radius: 10px;
   }
   
   .Apod-text {
@@ -58,9 +59,9 @@
   
   }
   .Apoding-text-div{
-    /* height: 100vh;
-    overflow: hidden; */
-    background-color: rgba(0, 0, 0, 0.397);
+    /* background-color: rgba(0, 0, 0, 0.548); */
+    border-radius: 30px;
+
 
   }
   
@@ -68,7 +69,7 @@
     font-size: 38px;
     line-height: 40px;
     color: rgb(199, 203, 204);
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 
   }
   
@@ -80,6 +81,10 @@
    border-radius: 20px;
   }
   
+  .Apoding-image-div {
+
+  /* background-image: url("https://i.stack.imgur.com/90nGa.jpg"); */
+  }
   .wave-emoji {
     animation-duration: 1.8s;
     animation-iteration-count: infinite;
@@ -87,6 +92,28 @@
     display: inline-block;
     transform-origin: 70% 70%;
   }
+
+
+  
+    .photo{
+        color: rgb(171, 6, 248);
+        padding: 10px;
+        text-align: left;
+        
+        /* margin: 10px; */
+        /* border-radius: 10px; */
+        /* padding-bottom: 20px; */
+        border-bottom-width: 10px;
+        border-bottom-color: red;
+        /* font-family: 'Viaoda Libre', cursive; */
+        font-family: Bioweapon ,sans-serif;
+font-size: 25px;
+        /* background-color: rgba(94, 80, 80, 0.938); */
+        position: relative;
+        /* top: 20px; */
+        border-width: 50px;
+        border-color: teal;
+    }
   
   @keyframes wave {
     0% {
@@ -207,6 +234,9 @@
         padding: 20px;
         border-radius: 20px;
     }
+    .photo{
+font-size: 20px;
+    }
 
     }
 
@@ -217,19 +247,6 @@
         overflow: hidden;
     }
 
-    .photo{
-        color: white;
-        padding: 10px;
-        text-align: left;
-        
-        margin: 10px;
-        border-radius: 10px;
-        /* padding-bottom: 20px; */
-        border-bottom-width: 10px;
-        border-bottom-color: red;
-        font-family: 'Viaoda Libre', cursive;
-        /* background-color: rgba(168, 44, 22, 0.199); */
-    }
    
 
     .svg{

@@ -47,6 +47,20 @@ export default function Apod() {
       <div className="Apod-main" id="Apoding">
   
         <div className="Apoding-main">
+
+
+
+        <div className="Apoding-image-div">
+          {isphoto ? (
+        <img src={ApodData.url} alt={ApodData.title} />
+          ):(
+            <iframe src={ApodData.url} title="description"></iframe>
+
+          )}
+        {/* <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZQhQzO.json"  background="transparent"  speed="1"   loop  autoplay /> */}
+
+    </div>
+
        
           <div className="Apoding-text-div">
             <div>
@@ -61,16 +75,7 @@ export default function Apod() {
             </div>
            
           </div>
-          <div className="Apoding-image-div">
-          {isphoto ? (
-        <img src={ApodData.url} alt={ApodData.title} />
-          ):(
-            <iframe src={ApodData.url} title="description"></iframe>
-
-          )}
-        {/* <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZQhQzO.json"  background="transparent"  speed="1"   loop  autoplay /> */}
-
-    </div>
+        
 
         </div>
         

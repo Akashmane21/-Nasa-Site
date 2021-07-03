@@ -2,13 +2,14 @@ import React from "react";
 import "./Contact.css";
 import SocialMedia from "../socialMedia/SocialMedia";
 import {Fade} from "react-reveal";
-import Footer from "../footer/Footer";
+// import Footer from "../footer/Footer";
 
 export default function Contact() {
 
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
+      <div className="bg">
         <div className="contact-div-main">
 
         <div className="contact-image-div">
@@ -47,7 +48,19 @@ export default function Contact() {
           </div>
          
         </div>
-        <Footer />
+        <Fade bottom duration={1000} distance="5px">
+      <div className="footer-div">
+       
+        <a href="https://akash-mane.netlify.app/">
+        <p className="dark-mode footer-text">
+           " Made with ❤️ by Akash Mane "
+          
+        </p>
+        </a>
+        
+      </div>
+    </Fade>
+    </div>
       </div>
     </Fade>
   );

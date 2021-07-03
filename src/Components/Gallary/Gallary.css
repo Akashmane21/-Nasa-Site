@@ -4,12 +4,18 @@
     line-height: 1.1;
     color: rgb(176, 18, 238) !important;
     font-family: Bioweapon , sans-serif;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-left: 20px;
-  }
+    padding-top: 50px;
 
+  }
+.Gallary_main{
+    background-image: url("https://i.gifer.com/BXe0.gif");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
   
-  .Gallary_main >button{
+  .gbg >button{
     background-color: orange;
     font-size: 20px;
     text-transform: uppercase;
@@ -18,7 +24,7 @@
     margin-top: 50px;
 }
 
-.Gallary_main >button:hover{
+.gbg >button:hover{
     background-color: #1b1f23;
     border-width: 1px;
     border-color: orange;
@@ -31,7 +37,7 @@
     width: 300px;
     margin: 20px;
     border-radius: 5px;
-    
+/*     
     box-shadow:
     0 3.5px 3.6px rgba(148, 3, 245, 0.036),
     0 9.6px 5px rgba(150, 0, 250, 0.047),
@@ -42,7 +48,7 @@
 	-o-transform: rotate(4deg);
 	-ms-transform: rotate(4deg);
 	transform: rotate(4deg);
-    overflow: hidden;
+    overflow: hidden; */
 
 }
 .Photo_grid >img:hover{
@@ -66,4 +72,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gbg{
+    background-color: rgba(0, 0, 0, 0.644);
+    padding-bottom: 50px;
+
+
 }

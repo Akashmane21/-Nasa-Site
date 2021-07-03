@@ -13,7 +13,8 @@
     line-height: 1.1;
     color: rgb(176, 18, 238) !important;
     font-family: Bioweapon , sans-serif;
-    margin-top: 50px;
+    padding-top: 50px;
+margin-top: 0px;
   }
 
 
@@ -35,14 +36,20 @@
   }
   .Donki_main{
       padding-bottom: 40px;
-  }
+      background-image: url("https://i.imgur.com/R3cpQ9R.gif");
 
+      /* background-image: url("https://cdn.dribbble.com/users/1141571/screenshots/3978202/dribbble_4.gif");
+background-size: 98%; */
+  }
+.Tech_area{
+  /* background-color: red; */
+}
   @media (max-width: 768px) {
 
 
     .Tech_title {
         font-size: 20px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
   }
 

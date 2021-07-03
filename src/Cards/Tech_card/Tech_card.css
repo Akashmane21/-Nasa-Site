@@ -14,13 +14,6 @@
       border-radius: 5px;
   }
 
-  .Tech_title {
-    font-size: 30px;
-    line-height: 1.1;
-    color: rgb(176, 18, 238) !important;
-    font-family: Bioweapon , sans-serif;
-    margin-top: 50px;
-  }
 
   .Tech_box >h5{
       margin-top: 15px;
@@ -29,7 +22,7 @@
   .Tech_box{
         height: 360px;
         width: 300px;
-        background-color: #1b1f23;
+        background-color: #222634;
         margin: 30px;
         border-radius: 5px;
         padding: 10px;

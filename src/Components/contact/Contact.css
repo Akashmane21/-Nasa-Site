@@ -15,11 +15,13 @@
 }
 
 .contact-div-main > * {
+  padding-top: 50px;
+
   flex: 1; 
 }
 #contact{
-  background-color: rgb(0, 0, 0);
-padding-top: 50px;
+  background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
+  /* background-size: 90%; */
 }
 .contact-title {
   font-family: Bioweapon ,sans-serif;
@@ -52,13 +54,13 @@ padding-top: 50px;
 }
 
 .contact-text-div {
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 .contact-header{
   /* width: 40%; */
 }
 .contact-margin-top {
-  margin-top: 4rem;
+  margin-top: 0px;
 }
 
 .contact-image-div > img {
@@ -130,4 +132,30 @@ padding-top: 50px;
 .contact-image-div{
   padding-bottom: 50px;
 }
+}
+
+
+
+
+.footer-text {
+  text-align: center;
+  color: white !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-div >a{
+  text-decoration: none;
+}
+
+
+.contact-div-main{
+}
+
+.bg{
+  background-color: rgba(0, 0, 0, 0.644);
+
 }

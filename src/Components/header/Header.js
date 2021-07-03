@@ -28,23 +28,23 @@ function Header() {
                 <ul className= "menu">
         {/* {viewExperience && ( */}
             <li>
-              <a href="/">About me</a>
+              <a href="/">Apod</a>
             </li>
           {/* )} */}
           {/* {viewSkills && ( */}
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Earth Epic</a>
             </li>
           {/* )} */}
         
           {/* {viewOpenSource && ( */}
             <li>
-              <a href="#opensource">Project's</a>
+              <a href="#opensource">Technologies</a>
             </li>
           {/* )} */}
           {/* {viewAchievement && ( */}
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Gallary</a>
             </li>
           {/* )} */}
           {/* {viewBlog && (

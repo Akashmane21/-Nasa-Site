@@ -25,7 +25,7 @@ function App() {
         
       
     <Particles
-    height="200vh"
+    height="600px"
      width="97vw"
      background="black"
         id="tsparticles"
