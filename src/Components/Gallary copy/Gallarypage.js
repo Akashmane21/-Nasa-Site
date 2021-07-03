@@ -1,4 +1,4 @@
-import React , {useState}  from "react";
+import React , {useState , useEffect}  from "react";
 import {Fade} from "react-reveal";
 import "./Gallarypage.css";
 // import Tech_card from "../../Cards/Tech_card/Tech_card";
@@ -10,7 +10,13 @@ import Contact from "../contact/Contact";
 
 
 export default function Gallarypage() {
-
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop=0;
+  
+  }, [])
+  
+  
 console.log(GallaryApi);
 // eslint-disable-next-line
 const [Gallary, setGallary] = useState(GallaryApi)

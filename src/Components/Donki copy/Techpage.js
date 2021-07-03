@@ -1,4 +1,4 @@
-import React  from "react";
+import React , {useEffect}  from "react";
 import Tech_cardpage from "../../Cards/Tech_card copy/Tech_cardpage";
 import Header from "../header copy/HeaderCopy";
 import Feedback from "../Feedback/Feedback";
@@ -10,7 +10,11 @@ import "./Tech.css";
 
 export default function Techpage() {
 
+useEffect(() => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop=0;
 
+}, [])
 
 
   return (
