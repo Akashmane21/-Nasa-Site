@@ -11,6 +11,7 @@ import Earth from './Components/Earth/Earth';
 import Donki from './Components/Donki/Donki';
 import Gallary from './Components/Gallary/Gallary';
 import Contact from './Components/contact/Contact';
+import Feedback from './Components/Feedback/Feedback';
 // import Slider from './Components/Slider/Slider';
 
 
@@ -151,6 +152,7 @@ function App() {
        width='300' height='530'  ></iframe> */}
 
        <Gallary />
+       <Feedback />
        {/* <Slider /> */}
        <Contact />
       

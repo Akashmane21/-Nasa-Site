@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Nasa';
+    src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+  @font-face {
+    font-family: 'Bioweapon';
+    src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
+  }
+ 
+  
+  .Feedback-main {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  
+  .Feedbacking-main {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subTitle {
+    color: white !important;
+  }
+  
+  
+  
+  .Feedbacking-main > * {
+    flex: 1;
+    /* margin-bottom: 30px; */
+  }
+  .Feedback-main{
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: 99%;
+    border-radius: 10px;
+  }
+  
+  .Feedback-text {
+    font-size: 40px;
+    line-height: 1.1;
+    color: rgb(18, 194, 238) !important;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  .Feedbacking-text-div{
+    /* background-color: rgba(0, 0, 0, 0.548); */
+    border-radius: 30px;
+
+
+  }
+  
+  .Feedbacking-text-p {
+    font-size: 38px;
+    line-height: 40px;
+    color: rgb(199, 203, 204);
+    /* font-family: 'Montserrat', sans-serif; */
+
+  }
+  
+  
+  .Feedbacking-image-div {
+align-items: center;
+justify-content: center;
+text-align: center;
+  /* background-image: url("https://i.stack.imgur.com/90nGa.jpg"); */
+  }
+  .wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+  }
+
+
+  
+    .photo{
+        color: rgb(171, 6, 248);
+        padding: 10px;
+        text-align: left;
+        
+        /* margin: 10px; */
+        /* border-radius: 10px; */
+        /* padding-bottom: 20px; */
+        border-bottom-width: 10px;
+        border-bottom-color: red;
+        /* font-family: 'Viaoda Libre', cursive; */
+        font-family: Bioweapon ,sans-serif;
+font-size: 25px;
+        /* background-color: rgba(94, 80, 80, 0.938); */
+        position: relative;
+        /* top: 20px; */
+        border-width: 50px;
+        border-color: teal;
+    }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .Feedbacking-text {
+      font-size: 20px;
+    }
+    .Feedbacking-text-p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+  
+    .Feedbacking-text {
+      font-size: 30px;
+      text-align: left;
+    }
+    .Feedbacking-text-p {
+      font-size: 16px;
+      line-height: normal;
+      text-align: left;
+    
+      /* text-align: center; */
+    }
+  
+    h4{
+      
+      font-size: 10px;
+    }
+    .Feedbacking-text-div{
+      padding:  20px;
+    }
+    .Feedbacking-main {
+      display: block;
+    }
+    .Feedbacking-image-div {
+      /* height: 256px; */
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .main {
+      width: 100%;
+    }
+  }
+  
+
+  
+  
+  
+
+  .Feedback-main{
+    background-color: rgb(5, 12, 24);
+    display: flex;
+      flex-direction: row-reverse;
+  }
+
+  
+@media(min-width:600px){
+    .Feedbacking-text-div{
+      padding: 60px;
+      align-items: flex-start;
+      text-align: left;
+    }
+    
+    .greet-main{
+      height: 90vh;
+    }
+    }
+    
+    
+    
+    
+    
+    @media(max-width:800px){
+      .greet-main{
+        height: 110vh;
+        overflow: hidden;
+      }
+      .Feedback-text {
+        font-size: 30px;
+        line-height: 1.1;
+        /* font-family: 'Nasa', sans-serif; */
+        text-align: left;
+      
+      }
+      img{
+          border-radius: 20px;
+      }
+     
+      .Feedbacking-image-div > img {
+        max-width: 100%;
+        height:300px;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .photo{
+font-size: 20px;
+    }
+
+    }
+
+    .exp{
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+   
+
+    .svg{
+      position: absolute;
+      top: 20;
+    }
+
+
+    .box{
+        background-color: #222634;
+    }
+
+    .box-div{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+        .box{
+            background-color: #05131e;
+            border-radius: 10px;
+            padding: 20px;
+
+            height: auto;
+        /* width: 400px; */
+        }
+
+        h2{
+            font-family: 'Montserrat', sans-serif;
+
+            color: rgb(244, 245, 245);
+        }

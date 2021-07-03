@@ -12,7 +12,7 @@ function Header() {
       <header className= "header">
       <Zoom right>
         <a href="/" className="logo">
-        {/* <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" /> */}
+        <img alt="feedback animation" src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" />
           <span className="logo-name">Nasa </span>
         </a>
         </Zoom>
@@ -40,6 +40,10 @@ function Header() {
          
             <li>
               <a href="#Gallary">Gallary</a>
+            </li>
+            
+            <li>
+              <a href="#Feedbacking">Feedback</a>
             </li>
       
           <li>
