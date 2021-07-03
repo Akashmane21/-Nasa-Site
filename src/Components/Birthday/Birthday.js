@@ -41,14 +41,14 @@ export default function Apod() {
   return (
     <Bounce bottom>
    
-    <h1 className="title" >
+  
+      <div className="Birhday-main" id="Birthday">
+  
+      <h1 className="title" >
                
                {" "}  See what Nasa saws on your Birthday{" "}
                  <span className="wave-emoji">📸</span>
                </h1>
-  
-      <div className="Birhday-main" id="Birthday">
-  
         <div className="Birthday-main">
        
           <div className="Birthday-text-div">

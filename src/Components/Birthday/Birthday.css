@@ -163,9 +163,10 @@
   
 
   .Apod-main{
-      background-color: black;
-      display: flex;
+    background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
+          display: flex;
       flex-direction: row-reverse;
+      
   }
 
   
@@ -229,12 +230,12 @@
         border-bottom-width: 10px;
         border-bottom-color: red;
         font-family: 'Viaoda Libre', cursive;
-        /* background-color: rgb(10, 10, 10); */
+        background-color: rgb(10, 10, 10);
     }
    
 
     .dateselect{
-        background-color: rgb(10, 9, 17);
+        background-color: rgb(10 9, 17);
         padding: 10px;
         text-align: left;
         justify-content: left;

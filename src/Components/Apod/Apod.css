@@ -45,6 +45,9 @@
   }
   .Apod-main{
     height: 100vh;
+    background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   .Apod-text {
@@ -57,6 +60,8 @@
   .Apoding-text-div{
     /* height: 100vh;
     overflow: hidden; */
+    background-color: rgba(0, 0, 0, 0.397);
+
   }
   
   .Apoding-text-p {
