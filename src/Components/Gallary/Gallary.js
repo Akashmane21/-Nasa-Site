@@ -15,7 +15,7 @@ const [Gallary, setGallary] = useState(Galaryshort)
   return (
     <Fade bottom duration={1000} distance="40px">
     
-          <div className="Gallary_main">
+          <div className="Gallary_main" id="Gallary">
           <div className="gbg">
                    <h1  className="gallary_title" >  Photo Gallary  </h1>
 

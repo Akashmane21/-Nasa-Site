@@ -15,7 +15,7 @@ export default function Donki() {
 
 
   return (
-      <div className="Donki_main">
+      <div className="Donki_main" id="Donki">
                    <h1  className="Tech_title" >  New Technologies 🥇 </h1>
                   
                 <div className="Tech_area">

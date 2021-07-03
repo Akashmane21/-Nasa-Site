@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 
 
 function Header() {
- 
+
   return (
     <Headroom>
 
@@ -26,37 +26,22 @@ function Header() {
         </label>
         <Zoom top>
                 <ul className= "menu">
-        {/* {viewExperience && ( */}
             <li>
-              <a href="/">Apod</a>
+              <a href="#Apoding">Apod</a>
             </li>
-          {/* )} */}
-          {/* {viewSkills && ( */}
+       
             <li>
-              <a href="#skills">Earth Epic</a>
+              <a href="#Earthing">Earth Epic</a>
             </li>
-          {/* )} */}
         
-          {/* {viewOpenSource && ( */}
             <li>
-              <a href="#opensource">Technologies</a>
+              <a href="#Donki">Technologies</a>
             </li>
-          {/* )} */}
-          {/* {viewAchievement && ( */}
+         
             <li>
-              <a href="#achievements">Gallary</a>
+              <a href="#Gallary">Gallary</a>
             </li>
-          {/* )} */}
-          {/* {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )} */}
-          {/* {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )} */}
+      
           <li>
             <a href="#contact">Contact Me</a>
           </li>

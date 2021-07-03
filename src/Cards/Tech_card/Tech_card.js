@@ -65,7 +65,7 @@ window.onclick = function(event) {
 
                             <img  alt={modalname} src={modalimg} />
                             <h5>{modalname}</h5>
-                            <h6>Type : {modaltype}</h6>
+                            {/* <h6>Type : {modaltype}</h6> */}
                             <p>{modaldes}</p>
 
              </div>
