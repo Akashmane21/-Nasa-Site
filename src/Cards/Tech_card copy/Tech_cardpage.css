@@ -23,7 +23,7 @@
         height: 360px;
         width: 300px;
         background-color: #222634;
-        margin: 20px;
+        margin: 30px;
         border-radius: 5px;
         padding: 10px;
         text-align: left;
@@ -185,13 +185,4 @@
     margin: 10px;
   width: 95%;
   }
-  }
-
-
- .bigbtn> button{
-  
-    background-color: transparent;
-    border-width: 0px;
-    
-  
   }

@@ -1,11 +1,11 @@
 import React from "react";
-import "./Header.css";
+import "./HeaderCopy.css";
 import Headroom from "react-headroom";
 import Zoom from 'react-reveal/Zoom';
 import {NavLink} from 'react-router-dom'
 
 
-function Header() {
+function HeaderCopy() {
 
   return (
     <Headroom>
@@ -28,11 +28,13 @@ function Header() {
         <Zoom top>
                 <ul className= "menu">
             <li>
-              <a href="#Apoding">Apod</a>
+            <NavLink exact activeClassName = "active_class" to="/">
+Apod</NavLink>
             </li>
        
             <li>
-              <a href="#Earthing">Earth Epic</a>
+            <NavLink exact activeClassName = "active_class" to="/">
+Earth Epic</NavLink>
             </li>
         
             <li>
@@ -48,11 +50,13 @@ Gallary</NavLink>
             </li>
             
             <li>
-              <a href="#Feedbacking">Feedback</a>
+            <NavLink exact activeClassName = "active_class" to="/">
+Feedback</NavLink>
             </li>
       
           <li>
-            <a href="#contact">Contact Me</a>
+          <NavLink exact activeClassName = "active_class" to="/">
+Contact Me</NavLink>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -67,4 +71,4 @@ Gallary</NavLink>
    
   );
 }
-export default Header;
+export default HeaderCopy;

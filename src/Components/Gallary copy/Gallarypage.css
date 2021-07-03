@@ -15,17 +15,17 @@
     background-size: 100%;
 }
   
-  .seebtn{
+  .gbg >button{
     background-color: orange;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 6px 30px;
-    border-radius: 6px;
+    padding: 3px 25px;
+    border-radius: 10px;
     margin-top: 50px;
 }
 
-.seebtn:hover{
-    background-color: #5000b9a1;
+.gbg >button:hover{
+    background-color: #1b1f23;
     border-width: 1px;
     border-color: orange;
     color: orange;

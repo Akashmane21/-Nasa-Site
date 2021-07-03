@@ -1,21 +1,23 @@
 import React , {useState}  from "react";
 import {Fade} from "react-reveal";
-import "./Gallary.css";
+import "./Gallarypage.css";
 // import Tech_card from "../../Cards/Tech_card/Tech_card";
-import { Galaryshort } from "../../LocalApi's/Gallary";
 import Zoom from 'react-reveal/Zoom';
-import {NavLink} from 'react-router-dom'
+import { GallaryApi } from "../../LocalApi's/Gallary";
+import Header from "../header copy/HeaderCopy";
+import Feedback from "../Feedback/Feedback";
+import Contact from "../contact/Contact";
 
 
-export default function Gallary() {
+export default function Gallarypage() {
 
-console.log(Galaryshort);
+console.log(GallaryApi);
 // eslint-disable-next-line
-const [Gallary, setGallary] = useState(Galaryshort)
+const [Gallary, setGallary] = useState(GallaryApi)
 
   return (
     <Fade bottom duration={1000} distance="40px">
-    
+    <Header />
           <div className="Gallary_main" id="Gallary">
           <div className="gbg">
                    <h1  className="gallary_title" >  Photo Gallary  </h1>
@@ -29,12 +31,11 @@ const [Gallary, setGallary] = useState(Galaryshort)
 
         ))} 
         </div>
-        <NavLink exact activeClassName = "active_class" to="/Gallary">
-<button className="seebtn">See More</button></NavLink>
              
       </div>
       </div>
-
+<Feedback />
+<Contact />
     </Fade>
   );
 }

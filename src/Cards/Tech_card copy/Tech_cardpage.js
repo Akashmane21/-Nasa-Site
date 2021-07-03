@@ -1,14 +1,14 @@
 import React ,{useState}  from "react";
-import Techshort from "../../LocalApi's/Techshort";
-import "./Tech_card.css";
+import "./Tech_cardpage.css";
 import Zoom from 'react-reveal/Zoom';
+import Tech from "../../LocalApi's/Tech";
 
 
 
-export default function Tech_card() {
+export default function Tech_cardpage() {
 
 // eslint-disable-next-line
-const [Techapi, setTechapi] = useState(Techshort)
+const [Techapi, setTechapi] = useState(Tech)
 
 const [modalimg, setmodalimg] = useState("")
 const [modaldes, setmodaldes] = useState("")
@@ -34,7 +34,7 @@ window.onclick = function(event) {
   return (
       <>
              
-<div className="bigbtn">
+
        {Techapi.map((Tech) => (
     <button onClick={()=>{
          setmodalimg(Tech.img)
@@ -70,7 +70,6 @@ window.onclick = function(event) {
 
              </div>
 
-     </div>
      </div>
       </>
                       
