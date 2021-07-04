@@ -7,6 +7,7 @@ import { GallaryApi } from "../../LocalApi's/Gallary";
 import Header from "../header copy/HeaderCopy";
 import Feedback from "../Feedback/Feedback";
 import Contact from "../contact/Contact";
+import Headroom from "react-headroom";
 
 
 export default function Gallarypage() {
@@ -22,8 +23,13 @@ console.log(GallaryApi);
 const [Gallary, setGallary] = useState(GallaryApi)
 
   return (
+    <>  
+    <Headroom>
+      <Header />
+    </Headroom>
+      
+
     <Fade bottom duration={1000} distance="40px">
-    <Header />
           <div className="Gallary_main" id="Gallary">
           <div className="gbg">
                    <h1  className="gallary_title" >  Photo Gallary  </h1>
@@ -43,5 +49,7 @@ const [Gallary, setGallary] = useState(GallaryApi)
 <Feedback />
 <Contact />
     </Fade>
+
+    </>
   );
 }
