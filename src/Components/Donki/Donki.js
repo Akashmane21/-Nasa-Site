@@ -23,7 +23,7 @@ export default function Donki() {
               {/* eslint-disable-next-line  */}
                   <Tech_card  />
                 </div>
-                <NavLink exact activeClassName = "active_class" to="/Donki">
+                <NavLink exact activeClassName = "active_class" to="/Technologies">
 
 <button className="seebtn">See More</button>
       </NavLink>

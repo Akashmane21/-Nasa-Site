@@ -37,7 +37,7 @@ function Header() {
         
             <li>
               
-              <NavLink exact activeClassName = "active_class" to="/Donki">
+              <NavLink exact activeClassName = "active_class" to="/Technologies">
 Technologies
 </NavLink>
             </li>
