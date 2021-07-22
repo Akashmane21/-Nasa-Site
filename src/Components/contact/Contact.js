@@ -15,7 +15,7 @@ export default function Contact() {
         <div className="contact-image-div">
               <img
                 alt="Akash Mane"
-                src="https://akash-mane.netlify.app/static/media/dp.4b447cb8.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/reactcrud-7b0fc.appspot.com/o/Image%2FPortfolio%20dp.png?alt=media&token=6fb09c66-dcd7-4f06-8030-671721c8c9f5"
               ></img>
           </div>
 
