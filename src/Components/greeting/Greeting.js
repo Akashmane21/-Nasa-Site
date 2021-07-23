@@ -15,8 +15,8 @@ export default function Greeting() {
             <div>
               <h1  className="dark-mode greeting-text"    >
                
-              {" "}  NASA - Space Administration{" "}
-                <span className="wave-emoji">🚀</span>
+              {" "} Explore the Space-Zone{" "}
+                <span className="wave-emoji"></span>
               </h1>
               <div className="h4div">
 
@@ -24,8 +24,8 @@ export default function Greeting() {
               </div>
               
               <p className="dark-mode greeting-text-p" >
-                The National Aeronautics and Space Administration (NASA /ˈnæsə/) is an 
-                independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and space research.              </p>
+                Explore the Space Zone with me which Contains the Astronomy Picture of the Day , Daily natural color imagery of Earth from the EPIC camera onboard the DSCOVR spacecraft.
+                All Technologies & Image Gallary of NASA              </p>
          <br />
         
           <h4>[ Developed by Akash Mane ]</h4>

@@ -51,7 +51,7 @@
     /* margin-bottom: 30px; */
   }
   .greet-main{
-    height: 100vh;
+    /* height: 100vh; */
   }
   
   .Earthing-text {
@@ -154,7 +154,7 @@
   }
   
   .greet-main{
-    height: 100vh;
+    /* height: 100vh; */
     /* overflow: hidden; */
   }
 
@@ -172,8 +172,8 @@
   
   @media(max-width:600px){
     .greet-main{
-      height: 100vh;
-      overflow: hidden;
+      /* height: 100vh;
+      overflow: hidden; */
     }
   
   }

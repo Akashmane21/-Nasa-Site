@@ -13,8 +13,8 @@ function HeaderCopy() {
       <header className= "header">
       <Zoom right>
         <a href="/" className="logo">
-        <img alt="feedback animation" src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" />
-          <span className="logo-name">Nasa </span>
+        {/* <img alt="feedback animation" src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" /> */}
+          <span className="logo-name">Space-Zone </span>
         </a>
         </Zoom>
         <input className="menu-btn" type="checkbox" id="menu-btn" />

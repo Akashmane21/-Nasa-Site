@@ -3,7 +3,7 @@
   src: local('Nasa'), url(../header//Nasa.ttf) format('truetype');
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @font-face {
   font-family: 'Bioweapon';
   src: local('Bioweapon'), url(../../assets//fonts/BIOWEAPON.ttf) format('truetype');
@@ -46,17 +46,26 @@ h4{
 .greeting-main > * {
   flex: 1;
   /* margin-bottom: 30px; */
+  
+
 }
 .greet-main{
   /* height: 300px;
   overflow: hidden; */
+  /* background-image: url("https://wallpapercave.com/wp/wp6575662.jpg"); */
+
 }
 
 .greeting-text {
   font-size: 60px;
   line-height: 1.1;
-  color: rgb(238, 18, 18) !important;
-  font-family: Nasa, sans-serif;
+  color: #2475fb!important;
+  /* font-family: Nasa, sans-serif; */
+  /* font-family: Bioweapon ,sans-serif; */
+
+  font-family: 'Lobster', cursive;
+  padding-bottom:18px;
+
 
 }
 .greeting-text-div{
@@ -111,7 +120,7 @@ h4{
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 60px;
   }
   .greeting-text-p {
     font-size: 20px;
@@ -162,7 +171,7 @@ h4{
 }
 
 .greet-main{
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow: hidden; */
 }
 }
@@ -173,7 +182,7 @@ h4{
 
 @media(max-width:600px){
   .greet-main{
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
   }
 

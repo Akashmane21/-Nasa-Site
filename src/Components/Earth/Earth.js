@@ -90,7 +90,7 @@ const imgs = ["https://epic.gsfc.nasa.gov/archive/natural/2021/06/26/jpg/epic_1b
                   
                     <div className="box">
                           <div className="boxtitle">
-                          <h4>Image information </h4>
+                          <h4>Live Image information </h4>
                           </div>
                         
                           <h5 className="heading">Date</h5>
