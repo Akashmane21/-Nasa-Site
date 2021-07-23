@@ -21,7 +21,7 @@ useEffect(() => {
     <>
       <div className="Donki_main" id="Donki">
       <Header />
-                   <h1  className="Tech_title" >  New Technologies 🥇 </h1>
+                   <h1  className="Tech_title" >    New Technologies 🥇 </h1>
                   
                 <div className="Tech_area">
               {/* eslint-disable-next-line  */}

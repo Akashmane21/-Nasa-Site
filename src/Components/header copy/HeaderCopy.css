@@ -164,7 +164,9 @@ padding-left: 5px;
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
+.header{
+  padding:15px;
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -198,6 +200,3 @@ padding-left: 5px;
 }
  }
 
- .header{
-  padding:20px;
-}
